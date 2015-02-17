@@ -1,0 +1,37 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Not much, but it does allow the user to start sabing commits. You need to do this in order start using git!
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is not solidified in the directory, and is not yet a part of the repository in git.
+It's benefit lies in preparing the repository from files in the working directory.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use "git diff" to compare the files in the staging area and the working directory to confirm what changes are to be committed, and "git diff -- staged" to make sure the new commit has a logical change in comparison to the latest commit.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches help keep history organized because they let the developer "branch out" into new ideas that seperate from each other.
+In addition, it allows the "master" branch to remain unchanged and easily accesible while new brances are developed and tested.
+Also: The master branch should always work, should showcase the file being worked on. "Offshoots" can be where new work is being developed.
+
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams are a visualization of the branch structure. Thanks to Sarah and Caroline for the help!
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The two branches become one branch, which is how they are represented on the diagram.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The automatic merge can do things quickly, but doesn't have the cabability to determine which of the two files in the merge should be kept in the event of a conflict.
+On the other hand, merges done manually can take a very long time. The automatic merge can at least pinpoint the conflict and bring it up to the developer's attention.
