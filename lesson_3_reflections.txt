@@ -17,3 +17,9 @@ A fork is a feature on GitHub that allows a developer to copy a repository onto 
 The original repository will not reflect any changes the new developer might make on his/her own profile, but the "forked" repository works like a branch in that it still contains all of the commits from that original repository.
 Cloning is simply copying a previously existing repository from one place to another, either from one place on the personal computer to another place, or from GitHub to the computer.
 (A fork is specifically used on GitHub, though it is effectively like cloning on a PC)
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+If the developer goes offline, they will still be up-to-date in relation to the last known state of the remote.
+And, it keeps the merges of the remote and local files relatively easy to resolve if differences should arise.
