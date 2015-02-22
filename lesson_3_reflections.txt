@@ -23,3 +23,12 @@ What is the benefit of having a copy of the last known state of the remote store
 
 If the developer goes offline, they will still be up-to-date in relation to the last known state of the remote.
 And, it keeps the merges of the remote and local files relatively easy to resolve if differences should arise.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Sending files over email might be a viable option, but much more tedious. In order to avoid losing each
+save, you would have to save files in different places every time you make a new save in order that the
+files are not overwritten with each save. (Git can save files while retaining older versions through the
+use of repositories; GitHub allows for the files and repositories to be accessed and changed by others
+on different systems.)
